@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&family=Poppins:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #c1f5ff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Crect stroke='%23C1F5FF' stroke-width='0.3' width='1' height='1' id='s'/%3E%3Cpattern id='a' width='3' height='3' patternUnits='userSpaceOnUse' patternTransform='rotate(128 1000 750) scale(39.8) translate(-974.87 -731.16)'%3E%3Cuse fill='%23bff3fc' href='%23s' y='2'/%3E%3Cuse fill='%23bff3fc' href='%23s' x='1' y='2'/%3E%3Cuse fill='%23bdf0fa' href='%23s' x='2' y='2'/%3E%3Cuse fill='%23bdf0fa' href='%23s'/%3E%3Cuse fill='%23bbeef7' href='%23s' x='2'/%3E%3Cuse fill='%23bbeef7' href='%23s' x='1' y='1'/%3E%3C/pattern%3E%3Cpattern id='b' width='7' height='11' patternUnits='userSpaceOnUse' patternTransform='rotate(128 1000 750) scale(39.8) translate(-974.87 -731.16)'%3E%3Cg fill='%23b9ebf5'%3E%3Cuse href='%23s'/%3E%3Cuse href='%23s' y='5' /%3E%3Cuse href='%23s' x='1' y='10'/%3E%3Cuse href='%23s' x='2' y='1'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='8'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='5' y='2'/%3E%3Cuse href='%23s' x='5' y='6'/%3E%3Cuse href='%23s' x='6' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='h' width='5' height='13' patternUnits='userSpaceOnUse' patternTransform='rotate(128 1000 750) scale(39.8) translate(-974.87 -731.16)'%3E%3Cg fill='%23b9ebf5'%3E%3Cuse href='%23s' y='5'/%3E%3Cuse href='%23s' y='8'/%3E%3Cuse href='%23s' x='1' y='1'/%3E%3Cuse href='%23s' x='1' y='9'/%3E%3Cuse href='%23s' x='1' y='12'/%3E%3Cuse href='%23s' x='2'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='2'/%3E%3Cuse href='%23s' x='3' y='6'/%3E%3Cuse href='%23s' x='3' y='11'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='4' y='10'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='c' width='17' height='13' patternUnits='userSpaceOnUse' patternTransform='rotate(128 1000 750) scale(39.8) translate(-974.87 -731.16)'%3E%3Cg fill='%23b7e8f2'%3E%3Cuse href='%23s' y='11'/%3E%3Cuse href='%23s' x='2' y='9'/%3E%3Cuse href='%23s' x='5' y='12'/%3E%3Cuse href='%23s' x='9' y='4'/%3E%3Cuse href='%23s' x='12' y='1'/%3E%3Cuse href='%23s' x='16' y='6'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='d' width='19' height='17' patternUnits='userSpaceOnUse' patternTransform='rotate(128 1000 750) scale(39.8) translate(-974.87 -731.16)'%3E%3Cg fill='%23C1F5FF'%3E%3Cuse href='%23s' y='9'/%3E%3Cuse href='%23s' x='16' y='5'/%3E%3Cuse href='%23s' x='14' y='2'/%3E%3Cuse href='%23s' x='11' y='11'/%3E%3Cuse href='%23s' x='6' y='14'/%3E%3C/g%3E%3Cg fill='%23b5e6ef'%3E%3Cuse href='%23s' x='3' y='13'/%3E%3Cuse href='%23s' x='9' y='7'/%3E%3Cuse href='%23s' x='13' y='10'/%3E%3Cuse href='%23s' x='15' y='4'/%3E%3Cuse href='%23s' x='18' y='1'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='e' width='47' height='53' patternUnits='userSpaceOnUse' patternTransform='rotate(128 1000 750) scale(39.8) translate(-974.87 -731.16)'%3E%3Cg fill='%23E0E2FF'%3E%3Cuse href='%23s' x='2' y='5'/%3E%3Cuse href='%23s' x='16' y='38'/%3E%3Cuse href='%23s' x='46' y='42'/%3E%3Cuse href='%23s' x='29' y='20'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='f' width='59' height='71' patternUnits='userSpaceOnUse' patternTransform='rotate(128 1000 750) scale(39.8) translate(-974.87 -731.16)'%3E%3Cg fill='%23E0E2FF'%3E%3Cuse href='%23s' x='33' y='13'/%3E%3Cuse href='%23s' x='27' y='54'/%3E%3Cuse href='%23s' x='55' y='55'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='g' width='139' height='97' patternUnits='userSpaceOnUse' patternTransform='rotate(128 1000 750) scale(39.8) translate(-974.87 -731.16)'%3E%3Cg fill='%23E0E2FF'%3E%3Cuse href='%23s' x='11' y='8'/%3E%3Cuse href='%23s' x='51' y='13'/%3E%3Cuse href='%23s' x='17' y='73'/%3E%3Cuse href='%23s' x='99' y='57'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23b)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23h)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23c)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23d)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23e)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23f)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23g)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+  cursor: pointer;
+}
+.navbar-brand:hover {
+  color: rgb(12, 12, 12);
+}
+
+#navbarNav {
+  font-weight: bold;
+}
+
+.navbar-nav li a {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.navbar-nav li a:hover {
+  color: black;
+  transition: 0.5s;
+}
+.navbar {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(50, 57, 60, 1) 100%
+  );
+}
+
+/* image pembuka */
+
+.image-gallery {
+  padding: 0;
+  margin: 0;
+}
+
+#image-bg {
+  width: 100%;
+  height: 50vh;
+}
+/* gallery */
+
+h2 {
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: #333;
+  -webkit-text-stroke: 1px #282828;
+  text-shadow: 0px 4px 4px #282828;
+}
+.galery {
+  /* background-color: #f5f5f5; */
+  padding-bottom: 1rem;
+}
+
+#photo-gallery {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+#photo-gallery:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+/* footer */
+footer {
+  background-color: #0a4275;
+}
+
+.bi {
+  cursor: pointer;
+}
+
+.bi:hover {
+  color: rgb(12, 12, 12);
+  transition: 0.2s;
+}
+
+#copy-footer {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  font-weight: bold;
+}
+
+#icons {
+  font-size: 1rem;
+}
+
+.bi-facebook,
+.bi-instagram,
+.bi-youtube {
+  color: white;
+}
+
+#copy-footer a {
+  text-decoration: none;
+}
+
+/* scroll up */
+#myBtn {
+  width: 4rem;
+  height: 4rem;
+  font-size: 4rem;
+  position: fixed;
+  bottom: 2.5rem;
+  right: 2rem;
+  cursor: pointer;
+  color: rgb(236, 22, 22);
+  opacity: 0.5;
+  mix-blend-mode: difference;
+  animation: rotating 4s linear infinite;
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+  border-radius: 1rem;
+}
+
+/* media query offcanvas */
+@media (max-width: 991px) {
+  .sidebar {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(
+      circle,
+      rgba(63, 94, 251, 1) 0%,
+      rgba(50, 57, 60, 1) 100%
+    );
+    backdrop-filter: blur(100%);
+  }
+}
+
+@media (max-width: 767px) {
+  #myBtn {
+    width: 3rem;
+    height: 3rem;
+    font-size: 3rem;
+  }
+
+  /* galley photo */
+
+  #photo-zoom {
+    width: 95%;
+  }
+  #photo-gallery {
+    -webkit-transition: 0.4s ease;
+    transition: 0.4s ease;
+  }
+
+  #photo-gallery:hover {
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+  }
+}
