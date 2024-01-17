@@ -58,9 +58,9 @@ html {
   );
   height: 100vh;
   /* padding-top: 25rem; */
-  padding-top: 19rem;
+  padding-top: 22rem;
   color: white;
-  background-image: url('image/jogja1.jpg');
+  background-image: url('image/tugu_ondel-ondel.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -178,7 +178,7 @@ footer {
 }
 
 /* scroll up */
-#myBtn {
+/* #myBtn {
   width: 4rem;
   height: 4rem;
   font-size: 4rem;
@@ -196,6 +196,40 @@ footer {
   align-items: center;
   line-height: 0;
   border-radius: 1rem;
+} */
+.back-to-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  border-radius: 100%;
+  background: #141c38;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  opacity: 100%;
+  transition: opacity 0.5s;
+}
+.back-to-top:hover {
+  opacity: 60%;
+}
+.hidden {
+  display: none;
+  opacity: 0%;
+}
+.back-to-top-icon {
+  width: 2rem;
+  height: 2rem;
+  color: #7ac9f9;
+}
+.progress-bar {
+  height: 1rem;
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 /* #image-home {
@@ -276,6 +310,11 @@ footer {
 
   #home {
     padding-top: 10rem;
+  }
+
+  /* card image */
+  #card-image {
+    width: 100%;
   }
 }
 /* for mobile */

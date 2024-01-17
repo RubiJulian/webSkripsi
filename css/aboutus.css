@@ -37,6 +37,11 @@ html {
   );
 }
 
+/* .navbar-nav > li > .dropdown-menu a:link,
+.navbar-nav > li > .dropdown-menu a:hover {
+  background-color: #ff0000;
+} */
+
 /* slider */
 
 .slider #slide-about {
@@ -226,7 +231,7 @@ footer {
 }
 
 /* scroll up */
-#myBtn {
+/* #myBtn {
   width: 4rem;
   height: 4rem;
   font-size: 4rem;
@@ -244,6 +249,105 @@ footer {
   align-items: center;
   line-height: 0;
   border-radius: 1rem;
+  border: none;
+} */
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99;
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(252, 4, 4); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 100%; /* Rounded corners */
+  font-size: 2rem;
+  opacity: 0.5;
+  mix-blend-mode: difference;
+  animation: rotating 4s linear infinite;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  opacity: 0.5;
+}
+
+#myBtn:hover {
+  background-color: #6d6b6b; /* Add a dark-grey background on hover */
+}
+.back-to-top-icon {
+  width: 2rem;
+  height: 2rem;
+  color: #7ac9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .bi-arrow-up-short {
+  font-size: 2rem;
+}
+
+.bi-arrow-up-short:hover {
+  background-color: #6d6b6b; 
+} */
+
+/* #scroll-btn {
+  opacity: 0;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background-color: #ef476f;
+  position: fixed;
+  bottom: 10%;
+  right: 10%;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  font: bold 20px monospace;
+  transition: opacity 0.5s, transform 0.5s;
+}
+#scroll-btn.show {
+  opacity: 1;
+  transition: opacity 1s, transform 1s;
+} */
+
+.back-to-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  border-radius: 100%;
+  background: #141c38;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  opacity: 100%;
+  transition: opacity 0.5s;
+  z-index: 99;
+}
+
+.back-to-top:hover {
+  opacity: 60%;
+}
+.hidden {
+  display: none;
+  opacity: 0%;
+}
+.back-to-top-icon {
+  width: 2rem;
+  height: 2rem;
+  color: #7ac9f9;
+}
+.progress-bar {
+  height: 1rem;
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 @media (max-width: 1024px) {
@@ -322,11 +426,6 @@ footer {
     padding: 0;
   }
   /* scroll up */
-  #myBtn {
-    width: 3rem;
-    height: 3rem;
-    font-size: 3rem;
-  }
 }
 
 /* mobile */

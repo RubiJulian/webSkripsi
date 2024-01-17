@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Pacifico&family=Poppins:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+/* navbar */
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+  cursor: pointer;
+}
+.navbar-brand:hover {
+  color: rgb(12, 12, 12);
+}
+
+#navbarNav {
+  font-weight: bold;
+}
+
+.navbar-nav li a {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.navbar-nav li a:hover {
+  color: black;
+  transition: 0.5s;
+}
+.navbar {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(50, 57, 60, 1) 100%
+  );
+}
+
+.navbar-expand-lg {
+  background-color: none;
+}
+
+.navbar-nav > li > .dropdown-menu a {
+  color: black;
+}
+.navbar-nav > li > .dropdown-menu a:hover {
+  color: #555555;
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(
+      circle,
+      rgba(63, 94, 251, 1) 0%,
+      rgba(50, 57, 60, 1) 100%
+    );
+    backdrop-filter: blur(100%);
+  }
+}
