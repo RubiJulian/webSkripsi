@@ -3,34 +3,17 @@ function clickSejarah() {
   if (confirm('tekan tombol OK untuk masuk Sejarah Betawi')) {
     setTimeout(function () {
       window.location.href = 'betawi.html';
-      // window.location.replace('betawi.html');
     }, 1000);
-    // console.log('berhasil');
-    // window.location.href = 'betawi.html';
   } else {
-    // window.location.reload();
-    // console.log('tidak berhasil');
   }
 }
-// console.log(clickSejarah);
-// setTimeout(function () {
-//   window.location.href = 'betawi.html';
-//   window.location.replace();
-// }, 5000);
 
-// alert klik informasi wisata
 function clickInformasi() {
   if (confirm('tekan tombol OK untuk masuk Sejarah Betawi')) {
     window.location.href = 'information.html';
   } else {
   }
 }
-
-// for scroll up
-// function topFunction() {
-//   const scroll = document.getElementById('myBtn');
-//   window.scroll({ top: 0, behavior: 'smooth' });
-// }
 
 const showOnPx = 100;
 const backToTopButton = document.querySelector('.back-to-top');

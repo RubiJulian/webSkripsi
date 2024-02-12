@@ -92,6 +92,13 @@ h1 .text-home {
 
 /* popular place */
 
+#text-first {
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: #333;
+  -webkit-text-stroke: 1px #282828;
+  text-shadow: 0px 4px 4px #282828;
+}
 .popular {
   /* background-color: rgba(63, 94, 251, 1); */
   background-color: #21cfee;
@@ -104,10 +111,6 @@ h1 .text-home {
   box-shadow: 6px 6px 8px rgb(34, 54, 151);
   border: none;
   border-radius: 1em;
-}
-
-#card-image:hover {
-  transform: scale(1.05);
 }
 
 h2 {

@@ -102,6 +102,29 @@ p {
   color: white;
 }
 
+/* link maps */
+#maps {
+  padding-top: 1rem;
+}
+.link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#link-maps {
+  margin-top: 0.5rem;
+  background-color: black;
+  text-align: center;
+  width: 15%;
+  border-radius: 1rem;
+}
+
+#link-maps:hover {
+  background-color: #555555;
+  transition: 0.2s;
+}
+
 /* footer */
 footer {
   background-color: #0a4275;
@@ -197,6 +220,12 @@ footer {
   margin-top: 1.5rem;
 }
 
+@media (max-width: 1200px) {
+  #link-maps {
+    width: 17%;
+  }
+}
+
 @media (max-width: 991px) {
   .sidebar {
     background: rgb(63, 94, 251);
@@ -212,6 +241,10 @@ footer {
   .text-about {
     margin: 1rem 1.5rem 1rem 1.5rem;
   }
+  /* link maps */
+  #link-maps {
+    width: 18%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -222,5 +255,16 @@ footer {
     width: 3rem;
     height: 3rem;
     font-size: 3rem;
+  }
+  /* link maps */
+  #link-maps {
+    font-size: 12px;
+    width: 19%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #link-maps {
+    width: 25%;
   }
 }

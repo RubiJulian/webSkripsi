@@ -5,20 +5,45 @@ html {
 }
 
 body {
-  background: linear-gradient(144deg, #f5eff5, #4855d2, #6ad6d8);
-  background-size: 180% 180%;
-  animation: gradient-animation 18s ease infinite;
+  background: linear-gradient(53deg, #eaeceb, #edf5fb, #e2e5f0);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 42s ease infinite;
+  -moz-animation: AnimationName 42s ease infinite;
+  animation: AnimationName 42s ease infinite;
 }
 
-@keyframes gradient-animation {
+@-webkit-keyframes AnimationName {
   0% {
-    background-position: 0% 50%;
+    background-position: 92% 0%;
   }
   50% {
-    background-position: 100% 50%;
+    background-position: 9% 100%;
   }
   100% {
-    background-position: 0% 50%;
+    background-position: 92% 0%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 92% 0%;
+  }
+  50% {
+    background-position: 9% 100%;
+  }
+  100% {
+    background-position: 92% 0%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 92% 0%;
+  }
+  50% {
+    background-position: 9% 100%;
+  }
+  100% {
+    background-position: 92% 0%;
   }
 }
 
@@ -80,9 +105,15 @@ body {
   font-weight: bold;
   letter-spacing: 5px;
   padding-top: 5rem;
-  color: white;
-  -webkit-text-stroke: 1px whitesmoke;
-  text-shadow: 0px 4px 4px whitesmoke;
+  color: black;
+  -webkit-text-stroke: 1px rgb(26, 24, 24);
+  text-shadow: 0px 4px 4px rgb(26, 24, 24);
+}
+
+.text-about {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
 }
 
 /* image about */

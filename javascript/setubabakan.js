@@ -1,9 +1,3 @@
-// scroll up
-// function topFunction() {
-//   const scroll = document.getElementById('myBtn');
-//   window.scroll({ top: 0, behavior: 'smooth' });
-// }
-
 const showOnPx = 100;
 const backToTopButton = document.querySelector('.back-to-top');
 
@@ -40,5 +34,3 @@ document.addEventListener('scroll', () => {
     backToTopButton.classList.add('hidden');
   }
 });
-
-// loading halaman

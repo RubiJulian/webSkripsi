@@ -1,35 +1,12 @@
-// alert klik kembali ke home
-// function clickHome() {
-//   if (confirm('tekan tombol OK untuk masuk Sejarah Betawi')) {
-//     window.location.href = 'home.html';
-//   } else {
-//   }
-// }
 function clickHome() {
   if (confirm('tekan tombol OK untuk kembali ke beranda')) {
     setTimeout(function () {
       window.location.href = 'home.html';
-      // window.location.replace('home.html');
     }, 1000);
-    // console.log('berhasil');
-    // window.location.href = 'betawi.html';
   } else {
     window.location.reload();
-    // console.log('tidak berhasil');
   }
 }
-// console.log(clickHome);
-
-// scroll up
-// function topFunction() {
-//   const scroll = document.getElementById('myBtn');
-//   window.scroll({
-//     top: 0,
-//     behavior: 'smooth',
-//     block: 'end',
-//     inline: 'nearest',
-//   });
-// }
 
 const showOnPx = 100;
 const backToTopButton = document.querySelector('.back-to-top');

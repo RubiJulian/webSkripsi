@@ -201,7 +201,7 @@ footer {
 }
 /* form ulasan  */
 .bg-black {
-  margin-top: 1.5rem;
+  padding-top: 1.5rem;
 }
 
 @media (max-width: 991px) {

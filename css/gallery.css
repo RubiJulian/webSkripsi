@@ -72,6 +72,7 @@ h2 {
 #photo-gallery {
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
+  height: 25vh;
 }
 
 #photo-gallery:hover {
@@ -197,6 +198,7 @@ footer {
   #photo-gallery {
     -webkit-transition: 0.4s ease;
     transition: 0.4s ease;
+    height: 50vh;
   }
 
   #photo-gallery:hover {

@@ -183,6 +183,8 @@ hr {
 
 .text-about {
   padding: 0 50px 2px 0;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .image-about {
@@ -228,6 +230,17 @@ footer {
 
 #copy-footer a {
   text-decoration: none;
+}
+
+.email-me {
+  /* text-decoration: none; */
+  color: white;
+  font-weight: bold;
+}
+
+.email-me:hover {
+  color: black;
+  transition: 0.2s;
 }
 
 /* scroll up */
